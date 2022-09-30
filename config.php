@@ -5,7 +5,7 @@
 try{
     $user = ""; // utilisateur bdd
     $pass = "";  // mp bdd
-    $pdo = new PDO( 'mysql:host=;dbname=', $user, $pass); //mysql:host="hôte" / dbname = nom de ma bdd
+    $pdo = new PDO( 'mysql:host=;dbname=', $user, $pass); //mysql:host="hôte" / dbname = nom de la bdd
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     return $pdo;
 
