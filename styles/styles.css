@@ -1,0 +1,121 @@
+/****************************************** GENERAL **************************************/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.global-container{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0px 16px;
+}
+
+.div-title{
+    background-color: #5B5EA6;
+    padding:8px;
+    text-align: center;
+    color: #fefefe;
+}
+
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+/****************************************** FORMS **************************************/
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 16px;
+}
+
+.radio_container{
+    display: flex;
+    gap: 16px;
+}
+
+footer{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width:100%;
+    text-align: center;
+    background-color: #98B4D4;
+    padding:16px;
+}
+
+
+
+/****************************************** TABLE **************************************/
+
+table{
+    margin-bottom: 40px;
+    border-collapse: collapse;
+    border: 3px solid #98B4D4;
+}
+
+th,
+td {
+	padding: 15px;
+}
+
+tr td:last-of-type{
+    display: flex;
+    gap:20px;
+}
+
+thead th{
+    background-color: #98B4D4;
+}
+
+/****************************************** BUTTONS **************************************/
+
+.action-btn{
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 6px 24px;
+    color: #fff;
+    transition: background-color .17s ease,color .17s ease;
+    text-decoration: none;
+}
+
+.btn-edit, .edit-valid-btn{
+    background-color: rgb(239, 192, 80);
+}
+
+.btn-edit:hover, .edit-valid-btn:hover {
+    background-color: rgb(222, 173, 34);
+}
+
+.btn-delete{
+    background-color: rgb(221, 65, 36);
+}
+
+.btn-delete:hover{
+    background-color: rgb(204, 46, 0);
+}
+
+.btn-create, .create-valid-btn{
+    background-color: rgb(0, 155, 119);
+}
+
+.btn-create:hover, .create-valid-btn:hover{
+    background-color: rgb(0, 140, 84);
+}
+
+.submit_container{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn{
+    width: 50%;
+    font-weight: bold;
+    padding: 8px;
+    border:none;
+}
